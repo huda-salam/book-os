@@ -33,7 +33,8 @@ export default defineConfig({
           { text: 'AI Quality Assurance', link: '/workflow/ai-quality-assurance' },
           { text: 'Bootstrap Protocol', link: '/workflow/bootstrap-protocol' },
           { text: 'Research & Evidence', link: '/workflow/research-and-evidence' },
-          { text: 'Book Development Lifecycle', link: '/workflow/book-development-lifecycle' }
+          { text: 'Book Development Lifecycle', link: '/workflow/book-development-lifecycle' },
+          { text: 'AI Operating Commands', link: '/workflow/ai-operating-commands' }
         ]
       }],
       '/schemas/': [{
@@ -53,7 +54,8 @@ export default defineConfig({
           { text: 'Release Record', link: '/templates/release-record' },
           { text: 'Language & Style Profile', link: '/templates/language-style-profile' },
           { text: 'Development Stage', link: '/templates/book-development-stage' },
-          { text: 'Canonical Ownership', link: '/templates/canonical-ownership' }
+          { text: 'Canonical Ownership', link: '/templates/canonical-ownership' },
+          { text: 'AI Operation Record', link: '/templates/ai-operation-record' }
         ]
       }]
     }
