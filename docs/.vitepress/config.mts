@@ -35,7 +35,8 @@ export default defineConfig({
           { text: 'Research & Evidence', link: '/workflow/research-and-evidence' },
           { text: 'Book Development Lifecycle', link: '/workflow/book-development-lifecycle' },
           { text: 'AI Operating Commands', link: '/workflow/ai-operating-commands' },
-          { text: 'Repository Contribution Guide', link: '/workflow/repository-contribution-guide' }
+          { text: 'Repository Contribution Guide', link: '/workflow/repository-contribution-guide' },
+          { text: 'Book OS Self-Review', link: '/workflow/book-os-self-review' }
         ]
       }],
       '/schemas/': [{
@@ -57,7 +58,8 @@ export default defineConfig({
           { text: 'Development Stage', link: '/templates/book-development-stage' },
           { text: 'Canonical Ownership', link: '/templates/canonical-ownership' },
           { text: 'AI Operation Record', link: '/templates/ai-operation-record' },
-          { text: 'Contribution Record', link: '/templates/contribution-record' }
+          { text: 'Contribution Record', link: '/templates/contribution-record' },
+          { text: 'Book OS Self-Review', link: '/templates/book-os-self-review' }
         ]
       }]
     }
