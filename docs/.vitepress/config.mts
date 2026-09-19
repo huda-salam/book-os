@@ -23,15 +23,16 @@ export default defineConfig({
           { text: 'Quality Gates', link: '/core/quality-gates' }
         ]
       }],
-      '/schemas/': [{
-        text: 'Schemas',
-        items: [{ text: 'Knowledge Model', link: '/schemas/' }]
-      }],
       '/workflow/': [{
         text: 'Workflow',
         items: [
-          { text: 'AI & Repository Operating Model', link: '/workflow/ai-repository-operating-model' }
+          { text: 'AI & Repository Operating Model', link: '/workflow/ai-repository-operating-model' },
+          { text: 'AI Quality Assurance', link: '/workflow/ai-quality-assurance' }
         ]
+      }],
+      '/schemas/': [{
+        text: 'Schemas',
+        items: [{ text: 'Knowledge Model', link: '/schemas/' }]
       }],
       '/templates/': [{
         text: 'Templates',
