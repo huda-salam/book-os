@@ -17,6 +17,7 @@ export default defineConfig({
           { text: 'Epistemic Model', link: '/core/epistemic-model' },
           { text: 'Reasoning Model', link: '/core/reasoning' },
           { text: 'Knowledge Architecture', link: '/core/knowledge-architecture' },
+          { text: 'Canonical Ownership', link: '/core/canonical-ownership' },
           { text: 'Evidence Architecture', link: '/core/evidence' },
           { text: 'Terminology', link: '/core/terminology' },
           { text: 'Retrieval', link: '/core/retrieval' },
@@ -51,7 +52,8 @@ export default defineConfig({
           { text: 'Review Record', link: '/templates/review-record' },
           { text: 'Release Record', link: '/templates/release-record' },
           { text: 'Language & Style Profile', link: '/templates/language-style-profile' },
-          { text: 'Development Stage', link: '/templates/book-development-stage' }
+          { text: 'Development Stage', link: '/templates/book-development-stage' },
+          { text: 'Canonical Ownership', link: '/templates/canonical-ownership' }
         ]
       }]
     }
