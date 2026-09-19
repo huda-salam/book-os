@@ -31,7 +31,8 @@ export default defineConfig({
           { text: 'AI & Repository Operating Model', link: '/workflow/ai-repository-operating-model' },
           { text: 'AI Quality Assurance', link: '/workflow/ai-quality-assurance' },
           { text: 'Bootstrap Protocol', link: '/workflow/bootstrap-protocol' },
-          { text: 'Research & Evidence', link: '/workflow/research-and-evidence' }
+          { text: 'Research & Evidence', link: '/workflow/research-and-evidence' },
+          { text: 'Book Development Lifecycle', link: '/workflow/book-development-lifecycle' }
         ]
       }],
       '/schemas/': [{
@@ -49,7 +50,8 @@ export default defineConfig({
           { text: 'Decision Record', link: '/templates/decision-record' },
           { text: 'Review Record', link: '/templates/review-record' },
           { text: 'Release Record', link: '/templates/release-record' },
-          { text: 'Language & Style Profile', link: '/templates/language-style-profile' }
+          { text: 'Language & Style Profile', link: '/templates/language-style-profile' },
+          { text: 'Development Stage', link: '/templates/book-development-stage' }
         ]
       }]
     }
