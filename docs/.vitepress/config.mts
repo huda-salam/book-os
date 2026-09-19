@@ -23,6 +23,10 @@ export default defineConfig({
           { text: 'Quality Gates', link: '/core/quality-gates' }
         ]
       }],
+      '/schemas/': [{
+        text: 'Schemas',
+        items: [{ text: 'Knowledge Model', link: '/schemas/' }]
+      }],
       '/workflow/': [{
         text: 'Workflow',
         items: [
