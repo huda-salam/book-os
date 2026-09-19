@@ -20,7 +20,9 @@ export default defineConfig({
           { text: 'Evidence Architecture', link: '/core/evidence' },
           { text: 'Terminology', link: '/core/terminology' },
           { text: 'Retrieval', link: '/core/retrieval' },
-          { text: 'Quality Gates', link: '/core/quality-gates' }
+          { text: 'Quality Gates', link: '/core/quality-gates' },
+          { text: 'Governance', link: '/core/governance' },
+          { text: 'Language & Style', link: '/core/language-and-style' }
         ]
       }],
       '/workflow/': [{
@@ -45,7 +47,8 @@ export default defineConfig({
           { text: 'Evidence Review', link: '/templates/evidence-review' },
           { text: 'Decision Record', link: '/templates/decision-record' },
           { text: 'Review Record', link: '/templates/review-record' },
-          { text: 'Release Record', link: '/templates/release-record' }
+          { text: 'Release Record', link: '/templates/release-record' },
+          { text: 'Language & Style Profile', link: '/templates/language-style-profile' }
         ]
       }]
     }
