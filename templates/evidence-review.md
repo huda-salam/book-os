@@ -1,54 +1,60 @@
-# Evidence Review
+# Evidence Review Record
+
+## Research Question
+
+- Question:
+- Context:
+- Intended use:
 
 ## Claim
 
 - Claim:
 - Claim type:
-- Why it matters:
-- Where it is used:
+- Importance:
 
-## Source
+## Evidence Requirement
 
-- Source:
-- Source class:
-- Author / organization:
-- Version / date:
+- Required source class:
+- Population / context:
+- Time period:
 - Jurisdiction:
-- Scope:
+- Precision required:
 
-## Evidence assessment
+## Sources
+
+| Source | Version / Date | Scope | Relevance |
+|---|---|---|---|
+| | | | |
+
+## Evidence Assessment
 
 - Evidence strength:
-- Method / basis:
-- What the source establishes:
-- What it does not establish:
-- Important limitations:
-- Conflicting evidence:
+- Directness:
+- Reliability:
+- Consistency:
+- Key limitations:
+- Evidence boundary:
+
+## Counterevidence
+
+- Contradicting evidence:
+- Alternative explanation:
+- Boundary conditions:
 
 ## Interpretation
 
-- Interpretation:
-- Confidence:
-- Assumptions:
+- What the evidence supports:
+- What it does not support:
+- Remaining uncertainty:
 
 ## Implication
 
-- Implication for the book:
-- Implication for reader decisions:
-- Recommendation, if any:
+- Reader implication:
+- Chapter / concept:
+- Recommended wording strength:
 
-## Traceability
+## Status
 
-- Canonical concept:
-- Canonical chapter:
-- Related claims:
-- Counterexamples:
-
-## Review status
-
-- [ ] Source identity verified
-- [ ] Version/date verified
-- [ ] Scope verified
-- [ ] Evidence boundary recorded
-- [ ] Interpretation separated from source statement
-- [ ] Recommendation separated from evidence
+- Research status: Draft / Reviewed / Accepted / Superseded
+- Reviewer:
+- Date:
