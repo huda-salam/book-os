@@ -8,7 +8,8 @@ export default defineConfig({
     nav: [
       { text: 'Guide', link: '/core/principles' },
       { text: 'Workflow', link: '/workflow/ai-repository-operating-model' },
-      { text: 'Templates', link: '/templates/' }
+      { text: 'Templates', link: '/templates/' },
+      { text: 'Visuals', link: '/presentation/' }
     ],
     sidebar: {
       '/core/': [{
@@ -44,6 +45,10 @@ export default defineConfig({
         text: 'Schemas',
         items: [{ text: 'Knowledge Model', link: '/schemas/' }]
       }],
+      '/presentation/': [{
+        text: 'Visual Presentation',
+        items: [{ text: 'Profiles', link: '/presentation/' }]
+      }],
       '/templates/': [{
         text: 'Templates',
         items: [
@@ -60,7 +65,8 @@ export default defineConfig({
           { text: 'Canonical Ownership', link: '/templates/canonical-ownership' },
           { text: 'AI Operation Record', link: '/templates/ai-operation-record' },
           { text: 'Contribution Record', link: '/templates/contribution-record' },
-          { text: 'Book OS Self-Review', link: '/templates/book-os-self-review' }
+          { text: 'Book OS Self-Review', link: '/templates/book-os-self-review' },
+          { text: 'Visual Style Profile', link: '/templates/visual-style-profile' }
         ]
       }]
     }
