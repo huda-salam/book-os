@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Book OS',
   description: 'A reusable operating system for building high-quality books.',
+  base: '/book-os/',
   themeConfig: {
     nav: [
       { text: 'Guide', link: '/core/principles' },
