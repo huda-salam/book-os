@@ -1,0 +1,33 @@
+:root {
+  --book-font-body: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --book-font-heading: var(--book-font-body);
+  --book-content-width: 760px;
+  --book-sidebar-width: 272px;
+  --book-radius: 8px;
+  --book-shadow: none;
+  --book-line-height: 1.78;
+  --book-heading-line-height: 1.2;
+  --book-border: var(--vp-c-divider);
+}
+
+body { font-family: var(--book-font-body); line-height: var(--book-line-height); }
+.VPDoc .container { max-width: calc(var(--book-content-width) + 320px); }
+.VPDoc .content { max-width: var(--book-content-width); }
+.VPDoc h1, .VPDoc h2, .VPDoc h3, .VPDoc h4 {
+  font-family: var(--book-font-heading);
+  line-height: var(--book-heading-line-height);
+  letter-spacing: -0.02em;
+}
+.VPDoc h1 { font-size: clamp(2rem, 4vw, 2.8rem); }
+.VPDoc h2 { margin-top: 2.8rem; }
+.VPDoc p, .VPDoc ul, .VPDoc ol { max-width: 72ch; }
+.VPDoc .vp-code-group, .VPDoc div[class*="language-"] {
+  border-radius: var(--book-radius);
+  box-shadow: var(--book-shadow);
+}
+.VPDoc .custom-block { border-radius: var(--book-radius); }
+.VPSidebar { width: var(--book-sidebar-width) !important; }
+
+@media (max-width: 960px) {
+  .VPSidebar { width: min(320px, 86vw) !important; }
+}
