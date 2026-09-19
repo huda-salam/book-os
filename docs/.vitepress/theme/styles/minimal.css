@@ -1,0 +1,20 @@
+:root[data-book-style="minimal"] {
+  --book-font-body: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --book-font-heading: var(--book-font-body);
+  --book-content-width: 720px;
+  --book-sidebar-width: 260px;
+  --book-radius: 8px;
+  --book-line-height: 1.72;
+  --book-heading-line-height: 1.22;
+}
+[data-book-style="minimal"] .VPDoc h1,
+[data-book-style="minimal"] .VPDoc h2,
+[data-book-style="minimal"] .VPDoc h3 {
+  font-weight: 650;
+  letter-spacing: -0.025em;
+}
+[data-book-style="minimal"] .VPDoc .custom-block,
+[data-book-style="minimal"] .VPDoc div[class*="language-"] {
+  border: 1px solid var(--book-border);
+}
+[data-book-style="minimal"] .VPDoc .custom-block { background: var(--vp-c-bg); }
