@@ -1,0 +1,19 @@
+:root[data-book-style="technical"] {
+  --book-font-body: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --book-font-heading: ui-sans-serif, system-ui, sans-serif;
+  --book-content-width: 780px;
+  --book-sidebar-width: 280px;
+  --book-radius: 6px;
+  --book-line-height: 1.68;
+  --book-heading-line-height: 1.18;
+}
+[data-book-style="technical"] .VPDoc h1,
+[data-book-style="technical"] .VPDoc h2,
+[data-book-style="technical"] .VPDoc h3 {
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+[data-book-style="technical"] .VPDoc code { font-size: 0.88em; }
+[data-book-style="technical"] .VPDoc div[class*="language-"] {
+  border: 1px solid var(--book-border);
+}
