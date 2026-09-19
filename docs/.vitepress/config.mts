@@ -27,7 +27,8 @@ export default defineConfig({
         text: 'Workflow',
         items: [
           { text: 'AI & Repository Operating Model', link: '/workflow/ai-repository-operating-model' },
-          { text: 'AI Quality Assurance', link: '/workflow/ai-quality-assurance' }
+          { text: 'AI Quality Assurance', link: '/workflow/ai-quality-assurance' },
+          { text: 'Bootstrap Protocol', link: '/workflow/bootstrap-protocol' }
         ]
       }],
       '/schemas/': [{
